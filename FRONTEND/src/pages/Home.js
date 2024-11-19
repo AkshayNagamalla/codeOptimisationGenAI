@@ -18,10 +18,10 @@ function Home() {
   },[]);
   return (
     
-    <div className="home"style={{backgroundImage:`url(${BannerImage})`}}>
+    <div className="home">
       <div className="headerContainer">
         <h1>Code Optimizer</h1>
-        <p>Solution to all coding queries</p>
+        <p> Solution to all coding queries</p>
       </div>
       <form>
       <input name="query" placeholder="Enter your query" type="text" />

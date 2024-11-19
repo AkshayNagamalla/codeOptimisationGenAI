@@ -9,9 +9,11 @@ function Footer() {
   return (
     <div className='footer'>
         <div className='socialMedia'>
-            <InstagramIcon/> <TwitterIcon/> <FacebookIcon/> <LinkedInIcon/>
+            <TwitterIcon/> <LinkedInIcon/>
         </div>
-        <p>&copy;2024 codeoptimizer.com</p>
+        <div>
+            <p>&copy;2024 codeoptimizer.com</p>
+        </div>
     </div>
   )
 }

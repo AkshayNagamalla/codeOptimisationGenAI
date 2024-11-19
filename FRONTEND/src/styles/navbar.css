@@ -44,7 +44,7 @@
 }
 
 .navLinks a:hover {
-  text-decoration: underline;
+  text-decoration:none;
 }
 
 .toggleButton {
@@ -82,7 +82,7 @@
 }
 
 .menu a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* Responsive Styling */
