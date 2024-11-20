@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Logo from "../assests/logo.png";
-import Logo from 
 import { Link } from "react-router-dom";
 import "../styles/navbar.css";
 import "@fortawesome/fontawesome-free/css/all.min.css"; 
