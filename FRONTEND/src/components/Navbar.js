@@ -27,6 +27,7 @@ function Navbar() {
           <Link to="/services">Services</Link>
           <Link to="/contact">Contact</Link>
         </div>
+        
       </div>
 
       {/* Sidebar */}
@@ -37,15 +38,15 @@ function Navbar() {
               ✖
             </button>
             <Link to="/" onClick={toggleSidebar}>
-              Day 3
+              Today
             </Link>
-            <Link to="/about" onClick={toggleSidebar}>
-              Day 2
+            <Link to="/" onClick={toggleSidebar}>
+              Yestarday
             </Link>
-            <Link to="/services" onClick={toggleSidebar}>
-              Day 1
+            <Link to="/" onClick={toggleSidebar}>
+              Previous 7 Days
             </Link>
-            <Link to="/contact" onClick={toggleSidebar}>
+            <Link to="/" onClick={toggleSidebar}>
               Last Month
             </Link>
           </div>

@@ -31,14 +31,14 @@
   form {
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 80%;
     height: auto;
     padding: 30px;
   }
   
   form input {
     height: 40px;
-    width: 80%;
+    width: 100%;
     border: none;
     border-bottom: 1px solid #121619;
     color: black;
