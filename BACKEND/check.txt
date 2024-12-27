@@ -1,0 +1,22 @@
+POST => http://localhost:3000/users
+format:
+{
+  "username": "testuser",
+  "email": "test@example.com"
+}
+
+
+POST message => http://localhost:3000/conversations/676ee481051b789d378ab7ff/messages
+format:
+{
+    "content": "Hello world",
+    "isBot": false
+}
+
+
+GET => http://localhost:3000/conversations/676eeeab051b789d378ab80d   
+format:
+{
+    "content": "Hello",
+    "isBot": false
+}
